@@ -1,11 +1,16 @@
 {
   "name": "vscode-prompts-chat-extension",
-  "displayName": "VSCode Prompts Chat Extension",
+  "displayName": "Prompts Chat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lin-jun-xiang/vscode-prompts-chat-extension"
+  },
   "description": "An extension to connect to prompts.chat and add prompt templates for VSCode Github Copilot.",
   "version": "0.1.0",
   "publisher": "junxiang",
+  "icon": "static/icon.png",
   "engines": {
-    "vscode": "^1.60.0"
+    "vscode": "^1.99.0"
   },
   "main": "./dist/extension.js",
   "contributes": {
